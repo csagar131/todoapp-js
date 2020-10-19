@@ -1,0 +1,98 @@
+body{
+    margin : 0;
+    box-sizing: border-box;
+    background : linear-gradient(to right,lightcoral,lightblue);
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  .todo-main{
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+
+#todo-container{
+  width: 40%;
+  background-color: white;
+  padding: 24px 24px;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+
+#todo-form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#todo-form input{
+  width: 90%;
+  border: none;
+  border-bottom: 2px solid blue;
+  font-size: 24px;
+  outline: none;
+}
+
+#todo-form i{
+  font-size: 34px;
+}
+
+#todo-list{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.todo-item-container{
+  width: 40%;
+  background-color: white;
+  padding: 10px 24px;
+  margin: 10px auto;
+  font-size: 18px;
+  border-radius: 5px;
+  
+}
+
+.todo-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item-none{
+  display: none;
+}
+
+.todo-item div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item > div > i{
+  margin: 0 8px;
+}
+
+.todo-edit{
+  display: none;
+}
+
+.todo-edit-show{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding : 20px 0px;
+}
+
+.todo-edit-show input{
+  width: 80%;
+  font-size: 20px;
+}
+
+.todo-edit-show button{
+  padding: 5px 10px;
+  border: none;
+}
+
+
